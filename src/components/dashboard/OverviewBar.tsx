@@ -2,7 +2,7 @@ import { Star, MessageSquare, BarChart3, Zap, Target } from "lucide-react";
 import { mockStats, mockPains } from "@/data/wateraid-mock";
 
 interface Props {
-  onNavigate: (tab: "overview" | "complaints" | "objections" | "outcomes" | "ads" | "repositioning") => void;
+  onNavigate: (tab: "overview" | "profile" | "complaints" | "objections" | "outcomes" | "ads" | "repositioning") => void;
 }
 
 export const OverviewBar = ({ onNavigate }: Props) => {
