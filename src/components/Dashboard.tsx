@@ -9,8 +9,9 @@ import { OutcomesSection } from "./dashboard/OutcomesSection";
 import { AdGenerator } from "./dashboard/AdGenerator";
 import { RepositioningSection } from "./dashboard/RepositioningSection";
 import { CharityProfileSection } from "./dashboard/CharityProfileSection";
+import { BrandGuidelinesSection } from "./dashboard/BrandGuidelinesSection";
 
-type Tab = "overview" | "profile" | "complaints" | "objections" | "outcomes" | "ads" | "repositioning";
+type Tab = "overview" | "profile" | "complaints" | "objections" | "outcomes" | "guidelines" | "ads" | "repositioning";
 
 const tabs: { key: Tab; label: string }[] = [
   { key: "overview", label: "Overview" },
@@ -18,6 +19,7 @@ const tabs: { key: Tab; label: string }[] = [
   { key: "complaints", label: "Top Pains" },
   { key: "objections", label: "Objections" },
   { key: "outcomes", label: "Desired Outcomes" },
+  { key: "guidelines", label: "Brand Guidelines" },
   { key: "ads", label: "Ad Generator" },
   { key: "repositioning", label: "Repositioning" },
 ];
@@ -83,6 +85,7 @@ export const Dashboard = ({ input, onBack }: Props) => {
           {activeTab === "complaints" && <PainsSection />}
           {activeTab === "objections" && <ObjectionsSection />}
           {activeTab === "outcomes" && <OutcomesSection />}
+          {activeTab === "guidelines" && <BrandGuidelinesSection />}
           {activeTab === "ads" && <AdGenerator />}
           {activeTab === "repositioning" && <RepositioningSection />}
         </motion.div>
