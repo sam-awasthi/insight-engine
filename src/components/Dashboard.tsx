@@ -85,6 +85,7 @@ export const Dashboard = ({ input, onBack }: Props) => {
           {activeTab === "complaints" && <PainsSection />}
           {activeTab === "objections" && <ObjectionsSection />}
           {activeTab === "outcomes" && <OutcomesSection />}
+          {activeTab === "guidelines" && <BrandGuidelinesSection />}
           {activeTab === "ads" && <AdGenerator />}
           {activeTab === "repositioning" && <RepositioningSection />}
         </motion.div>
