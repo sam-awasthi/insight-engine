@@ -11,7 +11,7 @@ import { RepositioningSection } from "./dashboard/RepositioningSection";
 import { CharityProfileSection } from "./dashboard/CharityProfileSection";
 import { BrandGuidelinesSection } from "./dashboard/BrandGuidelinesSection";
 
-type Tab = "overview" | "profile" | "complaints" | "objections" | "outcomes" | "ads" | "repositioning";
+type Tab = "overview" | "profile" | "complaints" | "objections" | "outcomes" | "guidelines" | "ads" | "repositioning";
 
 const tabs: { key: Tab; label: string }[] = [
   { key: "overview", label: "Overview" },
@@ -19,6 +19,7 @@ const tabs: { key: Tab; label: string }[] = [
   { key: "complaints", label: "Top Pains" },
   { key: "objections", label: "Objections" },
   { key: "outcomes", label: "Desired Outcomes" },
+  { key: "guidelines", label: "Brand Guidelines" },
   { key: "ads", label: "Ad Generator" },
   { key: "repositioning", label: "Repositioning" },
 ];
