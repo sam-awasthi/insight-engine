@@ -79,6 +79,7 @@ export const Dashboard = ({ input, onBack }: Props) => {
           transition={{ duration: 0.3 }}
         >
           {activeTab === "overview" && <OverviewBar onNavigate={setActiveTab} />}
+          {activeTab === "profile" && <CharityProfileSection />}
           {activeTab === "complaints" && <PainsSection />}
           {activeTab === "objections" && <ObjectionsSection />}
           {activeTab === "outcomes" && <OutcomesSection />}
