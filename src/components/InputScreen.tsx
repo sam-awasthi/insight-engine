@@ -56,7 +56,7 @@ export const InputScreen = ({ onAnalyze }: Props) => {
         className="w-full py-3.5 rounded-lg font-semibold text-primary-foreground transition-all hover:brightness-110 glow-brand"
         style={{ background: "var(--gradient-brand)" }}
       >
-        Analyze Sentiment →
+        Analyse Sentiment →
       </button>
       <p className="text-center text-xs text-muted-foreground">
         Pre-loaded with WaterAid data for demo

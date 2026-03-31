@@ -15,7 +15,7 @@ export const BrandGuidelinesSection = () => {
       `BRAND GUIDELINE: ${g.outcomeStatement.toUpperCase()}`,
       `═══════════════════════════════════════`,
       ``,
-      `CORE BRAND COLOR`,
+      `CORE BRAND COLOUR`,
       `  WaterAid Blue: ${WATERAID_BLUE}`,
       ``,
       `SUPPORTING PALETTE`,
