@@ -8,11 +8,13 @@ import { ObjectionsSection } from "./dashboard/ObjectionsSection";
 import { OutcomesSection } from "./dashboard/OutcomesSection";
 import { AdGenerator } from "./dashboard/AdGenerator";
 import { RepositioningSection } from "./dashboard/RepositioningSection";
+import { CharityProfileSection } from "./dashboard/CharityProfileSection";
 
-type Tab = "overview" | "complaints" | "objections" | "outcomes" | "ads" | "repositioning";
+type Tab = "overview" | "profile" | "complaints" | "objections" | "outcomes" | "ads" | "repositioning";
 
 const tabs: { key: Tab; label: string }[] = [
   { key: "overview", label: "Overview" },
+  { key: "profile", label: "Charity Profile" },
   { key: "complaints", label: "Top Pains" },
   { key: "objections", label: "Objections" },
   { key: "outcomes", label: "Desired Outcomes" },
