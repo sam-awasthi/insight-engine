@@ -20,8 +20,8 @@ const tabs: { key: Tab; label: string }[] = [
   { key: "objections", label: "Objections" },
   { key: "outcomes", label: "Desired Outcomes" },
   { key: "guidelines", label: "Brand Guidelines" },
-  { key: "ads", label: "Ad Generator" },
   { key: "repositioning", label: "Repositioning" },
+  { key: "ads", label: "Ad Generator" },
 ];
 
 interface Props {
