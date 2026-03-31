@@ -53,7 +53,7 @@ export const OverviewBar = ({ onNavigate }: Props) => {
 
       {/* Quick links */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-        {[
+      {([
           { label: "Top Pains", desc: `${mockPains.length} themes identified`, tab: "complaints", icon: Zap },
           { label: "Ad Generator", desc: "Create content from insights", tab: "ads", icon: Target },
           { label: "Repositioning", desc: "Brand strategy insights", tab: "repositioning", icon: BarChart3 },
