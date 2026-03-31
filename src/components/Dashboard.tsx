@@ -9,6 +9,7 @@ import { OutcomesSection } from "./dashboard/OutcomesSection";
 import { AdGenerator } from "./dashboard/AdGenerator";
 import { RepositioningSection } from "./dashboard/RepositioningSection";
 import { CharityProfileSection } from "./dashboard/CharityProfileSection";
+import { BrandGuidelinesSection } from "./dashboard/BrandGuidelinesSection";
 
 type Tab = "overview" | "profile" | "complaints" | "objections" | "outcomes" | "ads" | "repositioning";
 
