@@ -1,6 +1,6 @@
 # Insight Engine
 
-Turns customer complaints into marketing campaigns. Built at a hackathon — placed 3rd.
+Turns customer complaints into marketing campaigns. Built at VEED hackathon — placed 3rd.
 
 ## What It Does
 
@@ -24,5 +24,5 @@ Turns customer complaints into marketing campaigns. Built at a hackathon — pla
 
 ## Team
 
-Built by Team Maverick at a hackathon: Anna Maikova, Collette Creary-Myers, 
-Roselyn Xavier, Wanji Wambari-Kairu, Pauline, and Sam Awasthi.
+Built by Team Maverick at a hackathon: Sam Awasthi, Anna Maikova, Collette Creary-Myers, 
+Roselyn Xavier, Wanji Wambari-Kairu, Pauline.
